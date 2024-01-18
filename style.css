@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.box-master {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box-text {
+    width: 600px;
+}
+
+.box-img {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 210px;
+    
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+    margin: 30px 0 50px 0;
+}
+
+button {
+    background-color: #017143;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.copo-verde {
+    width: 340px;
+    z-index: 2;
+
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.copo-pequeno {
+    width: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0 25px;
+}
+
+.copo-pequeno:hover {
+    transform: translateY(-25px);
+}
+
+.circle {
+    position: absolute;
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+}
+
+/* #eb7495    #d752b1 */
